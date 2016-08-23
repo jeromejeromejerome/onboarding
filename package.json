@@ -1,0 +1,19 @@
+{
+  "name": "onboarding",
+  "version": "0.0.1",
+  "description": "On/OffBoarding",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeromejeromejerome/onboarding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeromejeromejerome/onboarding/issues"
+  },
+  "homepage": "https://github.com/jeromejeromejerome/onboarding#readme"
+}
