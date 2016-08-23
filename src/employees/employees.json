@@ -1,0 +1,71 @@
+[
+  {
+    "empFullName": "Albert Dupond",
+    "empOffice": "NY",
+    "empTitle": "Partner",
+    "empStatus": "onboarding",
+    "empTasks": [
+      {
+        "taskName": "Create ID",
+        "taskDept": "IT",
+        "taskStatus": "pending"
+      },
+      {
+        "taskName": "Create bank account",
+        "taskDept": "financial",
+        "taskStatus": "pending"
+      },
+      {
+        "taskName": "sign contract",
+        "taskDept": "HR",
+        "taskStatus": "pending"
+      }
+    ]
+  },
+  {
+    "empFullName": "John Snow",
+    "empOffice": "SF",
+    "empTitle": "Staff",
+    "empStatus": "onboarding",
+    "empTasks": [
+      {
+        "taskName": "Create ID",
+        "taskDept": "IT",
+        "taskStatus": "pending"
+      },
+      {
+        "taskName": "Create expense account",
+        "taskDept": "financial",
+        "taskStatus": "pending"
+      },
+      {
+        "taskName": "sign benefits",
+        "taskDept": "HR",
+        "taskStatus": "pending"
+      }
+    ]
+  },
+  {
+    "empFullName": "Roberta Agripine",
+    "empOffice": "CH",
+    "empTitle": "Staff",
+    "empStatus": "onboarding",
+    "empTasks": [
+      {
+        "taskName": "Create ID",
+        "taskDept": "IT",
+        "taskStatus": "pending"
+      },
+      {
+        "taskName": "Create copy account",
+        "taskDept": "financial",
+        "taskStatus": "pending"
+      },
+      {
+        "taskName": "Give tour",
+        "taskDept": "HR",
+        "taskStatus": "pending"
+      }
+    ]
+  }
+]
