@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "On/OffBoarding",
   "main": " ",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeromejeromejerome/onboarding.git"
@@ -15,5 +12,18 @@
   "bugs": {
     "url": "https://github.com/jeromejeromejerome/onboarding/issues"
   },
-  "homepage": "https://github.com/jeromejeromejerome/onboarding#readme"
+  "homepage": "https://github.com/jeromejeromejerome/onboarding#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "concurrently": "^2.2.0",
+    "superstatic": "^4.0.3",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc --watch",
+    "postinstall": "bower install && typings install",
+    "start": "concurrently \"npm run tsc:w\" \"superstatic\" "
+  }
 }
