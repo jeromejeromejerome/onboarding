@@ -3,14 +3,15 @@ var mainApp;
     'use strict';
     angular.
         module('core.employee').
-        factory('Employee', ['$resource',
+        factory('EmployeeResource', ['$resource',
         function ($resource) {
+            var queryAction = {
+                method: 'GET',
+                params: { employeeId: 'employees' },
+                isArray: true
+            };
             return $resource('employees/:employeeId.json', {}, {
-                query: {
-                    method: 'GET',
-                    params: { employeeId: 'employees' },
-                    isArray: true
-                }
+                query: queryAction
             });
         }
     ]);

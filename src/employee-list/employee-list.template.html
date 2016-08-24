@@ -1,8 +1,13 @@
+
 <div>
+
     <ul class="employees">
         <li ng-repeat="employee in $ctrl.employees">
-            {{employee.empFullName}}         
-
+             {{employee.empOffice}}, {{employee.empStatus}}, {{employee.empFullName}}, {{employee.empTitle}}
+     
         </li>
       </ul>
 </div>
+<pre>{{$ctrl.listOfStatus | json }}</pre>
+
+<pre>{{$ctrl.employees | json }}</pre>
